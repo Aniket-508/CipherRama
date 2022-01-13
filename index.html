@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cipherama</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <label>Enter your cipher key:</label>
+        <input type="text" name="key" id="key" placeholder="Format: XX.XX.XX.XX" class="keyinput" />
+        <label>Enter the data you want to encrypt:</label>
+        <input type="text" name="data" id="data" placeholder="Type here..." class="datainput" />
+        <button id="encrypt" class="encrypt" onclick="handleEncrypt();">Encrypt</button>
+        <label>Your encrypted data is: <span id="enc_data"></span></label>
+    </div>
+</body>
+
+</html>
